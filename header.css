@@ -11,6 +11,7 @@ background-color: white;
 display: flex;
 justify-content: space-between; /*espaço entre os itens*/
 align-items: center;
+position: relative;
 
 }
 .container{
@@ -21,4 +22,20 @@ align-items: center;
 padding: 1em;
 
 }
+.lista-menu{
+     display: flex;
+     align-items: center;
+}
+.container_imagem{
+    padding: 1em;
+
+}
+.lista-menu{
+    display: none;
+
+}
+container_botao:checked~.lista-menu{
+    display: block;
+}
+
 
